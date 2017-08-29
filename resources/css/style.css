@@ -95,7 +95,7 @@ nav.mobile li a {
 
 /* Header media queries */
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:480px) {
 nav.desktop {
 	display: none;
 }
@@ -111,7 +111,7 @@ header {
 }
 }
 
-@media only screen and (min-width:501px) {
+@media only screen and (min-width:481px) {
 nav.mobile {
 	display: none;
 }
@@ -174,7 +174,7 @@ nav.mobile {
 /* Introduction styles END */
 
 /* Introduction media query */
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:480px) {
 .intro {
     display: flex;
     flex-direction: column;
@@ -322,7 +322,7 @@ width: 95%;
 
 /* Information media query */
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:480px){
 .info-banner {
 	display: none;
 }
@@ -348,7 +348,7 @@ width: 95%;
 	width: 100%;
 }
 }
-@media only screen and (min-width:501px){
+@media only screen and (min-width:481px){
 .subject1 .photo-mobile {
 	display: none;
 }
@@ -429,7 +429,7 @@ width: 95%;
 
 /* Courses media query */
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:480px){
 .course-catalog {
     width: 100%;
     background-color: #f5f5f5;
@@ -443,8 +443,8 @@ width: 95%;
     width: 100%;
     display: none;
 }
-.mobile-course1 a, .mobile-course2 a, .mobile-course3 a,
-.mobile-course4 a, .mobile-course5 a, .mobile-course6 a {
+.mcourse1 a, .mcourse2 a, .mcourse3 a,
+.mcourse4 a, .mcourse5 a, .mcourse6 a {
 	color: #333333;
 	background-color: #cccccc;
 	width: 85%;
@@ -459,7 +459,7 @@ width: 95%;
 	font-weight: bold;
 	padding: 0 1rem;
 }
-.mobile-course1 a:hover {
+.mcourse1 a:hover {
 	background-image: url("../images/course-software.jpg");
 	height: 272px;
 	color: white;
@@ -467,7 +467,7 @@ width: 95%;
 	font-size: 2rem;
 	align-items: flex-end;
 }
-.mobile-course2 a:hover {
+.mcourse2 a:hover {
 	background-image: url("../images/course-computer-art.jpg");
 	height: 272px;
 	color: white;
@@ -475,7 +475,7 @@ width: 95%;
 	font-size: 2rem;
 	align-items: flex-end;
 }
-.mobile-course3 a:hover {
+.mcourse3 a:hover {
 	background-image: url("../images/course-design.jpg");
 	height: 272px;
 	color: white;
@@ -483,7 +483,7 @@ width: 95%;
 	font-size: 2rem;
 	align-items: flex-end;
 }
-.mobile-course4 a:hover {
+.mcourse4 a:hover {
 	background-image: url("../images/course-data.jpg");
 	height: 272px;
 	color: white;
@@ -491,7 +491,7 @@ width: 95%;
 	font-size: 2rem;
 	align-items: flex-end;
 }
-.mobile-course5 a:hover {
+.mcourse5 a:hover {
 	background-image: url("../images/course-business.jpg");
 	height: 272px;
 	color: white;
@@ -499,7 +499,7 @@ width: 95%;
 	font-size: 2rem;
 	align-items: flex-end;
 }
-.mobile-course6 a:hover {
+.mcourse6 a:hover {
 	background-image: url("../images/course-marketing.jpg");
 	height: 272px;
 	color: white;
@@ -508,9 +508,9 @@ width: 95%;
 	align-items: flex-end;
 }
 }
-@media only screen and (min-width:501px){
-.mobile-course1 a, .mobile-course2 a, .mobile-course3 a,
-.mobile-course4 a, .mobile-course5 a, .mobile-course6 a {
+@media only screen and (min-width:481px){
+.mcourse1 a, .mcourse2 a, .mcourse3 a,
+.mcourse4 a, .mcourse5 a, .mcourse6 a {
 	display: none;
 }
 }
@@ -526,7 +526,7 @@ width: 95%;
 .thesis .heading h2 {
 	padding: 1rem 0;
 }
-.urban {
+.sect {
 	display: inline-flex;
 	width: 100%;
 }
@@ -535,18 +535,22 @@ width: 95%;
 	margin: 0 1rem 1rem 1rem;
 	display: block;
 }
+
 .video video {
 	width: 100%;
 	height: auto;
 }
+
 .thesis .subject2 {
 	display: inline-flex;
 	border: 1px solid #cccccc;
     align-content: center;
 }
+
 .thesis .subject2:hover {
     background-color: #cccccc;
 }
+
 .subject2 .text a {
 	font-size: 0.8rem;
 	text-decoration: none;
@@ -564,31 +568,37 @@ width: 95%;
 	flex-direction: column;
 	margin: 0 1rem 0 0;
 }
+
 .subject2 {
 	width: 100%;
     align-content: center;
 }
+
 .subject2 .photo {
 	width: 35%;
 	padding: .6rem;
 }
+
 .subject2 .photo img {
 	width: 100%;
 	height: auto;
 }
+
 .subject2 .text {
 	display: flex;
 	flex-direction: column;
 	width: 65%;
     margin: 0;
 }
-.urban h3 {
+
+.sect h3 {
 	font-size: 1rem;
 	width: 90%;
     margin: 0;
     padding: 1rem 0 0.8rem 0;
 	font-weight: bold;
 }
+
 .subject2 .text h3 {
 	font-size: 1rem;
 	width: 90%;
@@ -596,6 +606,7 @@ width: 95%;
     padding: 1rem 0 0.8rem 0;
 	font-weight: bold;
 }
+
 .subject2 .text span {
 	font-size: 0.8rem;
 	width: 90%;
@@ -606,7 +617,7 @@ width: 95%;
 
 /* Thesis media queries */
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:480px){
 .sidebar {
     display: none;
 }
@@ -616,11 +627,11 @@ width: 95%;
 .video span {
 	display: none;
 }
-.urban {
+.sect {
 	display: flex;
 	width: 100%;
 }
-.urban .video h3 {
+.sect .video h3 {
 	display: none;
 }
 .video {
@@ -671,7 +682,7 @@ footer {
 
 /* Footer media query */
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:480px){
 footer .links {
 	display: none;
 }
